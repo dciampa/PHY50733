@@ -17,7 +17,7 @@ def timeEarth(dist_inp,beta):
 	t_earth=t_earth/31536000.
 	
 	print("At",dist_inp,"Light-years...")
-	print("The time it takes to travel there is %.2E sec for an observer on Earth." % Decimal(t_earth))
+	print("The time it takes to travel there is",t_earth,"years for an observer on Earth.")
 	return
 
 #function that will calculate the time it takes for the ship to reach the planet observed by a passenger
@@ -31,7 +31,7 @@ def timeShip(dist_inp,beta):
 	t_ship=t_ship/31536000.
 	
 	print("At",dist_inp,"Light-years...")
-	print("The time it takes to travel there is %.2E sec for an observer on the spaceship." % Decimal(t_ship))
+	print("The time it takes to travel there is",t_ship,"sec for an observer on the spaceship.")
 	return
 
 #calling the functions using the inputs above
