@@ -18,16 +18,14 @@ y=np.zeros(len(x))
 #input the function, limits of integration, and iterations
 def trapezoid(f,a, b, n):
     h=(b-a)/n
-
-    area = (f(a) + f(b))/2.0
+    s = (f(a) + f(b))/2.0
 
     #Loop over the number of iterations to calculate the area
     for i in range(1, n):
         x = a + i*h;
-        area += f(x)
-    area = area*h
+        s += f(x)
 
-    return area
+    return s*h
 
 #Fill an array with y values for plotting the function
 for j in range(len(x)):
