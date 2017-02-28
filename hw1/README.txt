@@ -1,0 +1,1 @@
+This folder contains Homework 1 python scripts.

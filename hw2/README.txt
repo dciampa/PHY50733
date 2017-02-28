@@ -1,0 +1,1 @@
+This folder contains Homework 2 python scripts and the respective plots/figures.
