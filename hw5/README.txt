@@ -9,7 +9,7 @@ Ciampa_hw5_prob1.py
 	Coldest Day (Celsius):  -0.91420938926
 	Hottest Day (Celsius):  18.9958696591
 
-(c) 
+(c) The b parameter shifts the fit left or right accordingly. This is necessary since the data is not a uniform sine function, instead the temperatures are offset by a certain phase shift. The first peak in temperature is not at x=0.
 
 
 
