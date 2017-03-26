@@ -15,8 +15,8 @@ Ciampa_hw5_prob1.py
 
 Ciampa_hw5_prob2.py
 
-(a)
+(a) 
 
-(b)
+(b) Neither? Linear and Quadratic fit mostly similar lines to the data. Although the data does not show much of a trend that can be fitted.
 
-(c)
+(c) 
